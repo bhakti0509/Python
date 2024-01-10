@@ -7,6 +7,6 @@ def run(y):
 
 def fun(x):
     print("In fun")
-    x() #TypeError : 'NoneType' object is not callable
+    #x() #TypeError : 'NoneType' object is not callable
 
 fun(run(gun))

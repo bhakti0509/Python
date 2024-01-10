@@ -4,9 +4,11 @@ def fun():
     yield 20
     yield 30 
     yield 
-    print("End fun")
+    print("End fun") 
 
 ret = fun()
 print(next(ret))
 print(next(ret))
 print(next(ret))
+
+
