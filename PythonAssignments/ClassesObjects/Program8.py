@@ -29,7 +29,6 @@ def parent(List):
 
         print("Total number of odd digits in the list : ",odd_count)
 
-    return digitCount, evenDigitCount, oddDigitCount
 
 def main():
     
